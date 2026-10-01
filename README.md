@@ -36,11 +36,42 @@ An AI griot that turns fragments of family history into heritage narratives comb
 
 | Project | What it does |
 | --- | --- |
+| **[Dhamana](https://github.com/Jeremiah-Sakuda/dhamana)** | A ticketing transaction engine that enforces inventory limits, verified-fan purchase caps, atomic resale, and escrow accounting on Aurora DSQL. Includes a concurrency demo. [Demo](https://dhamana.vercel.app) |
 | **[Hodi](https://github.com/Jeremiah-Sakuda/Hodi)** | Administers creative consent: scoped permissions, licensing requests, revocation, and auditable decisions across a fleet of agents. [Demo](https://hodi-evidence-endpoint-406699565497.us-central1.run.app/) |
 | **[Parley](https://github.com/Jeremiah-Sakuda/Parley)** | Negotiates for sellers while a deterministic Convex transaction enforces the margin floor. Supports agent-to-agent negotiation over MCP. [Demo](https://parley-ak4b.vercel.app/?demo) |
+| **[Karani](https://github.com/Jeremiah-Sakuda/Karani)** | Builds rubric-linked evidence sheets from student submissions, validates citations, and escalates uncertainty for instructor review. Includes an offline replay of recorded model runs. |
+| **[Sema](https://github.com/Jeremiah-Sakuda/sema)** | Helps film editors create audio description through visual evidence, measured narration timing, human approval, and export of approved narration and scripts. |
 | **[Akili](https://github.com/Jeremiah-Sakuda/Akili)** | Grounds answers from technical PDFs in page coordinates and source text, with explicit confidence tiers and refusal when evidence is insufficient. |
 | **[Dira](https://github.com/Jeremiah-Sakuda/Dira)** | Models commitments as a dependency graph, propagates schedule changes, and replans when an attempted repair fails. [Interactive evidence](https://dira-phi.vercel.app) |
 | **[Fly Applicant](https://github.com/Jeremiah-Sakuda/fly-applicant)** | Simulates a fruit-fly connectome to drive a browser-based job-application scene, with neural activity visualized live. [Watch it](https://fly-office.vercel.app) |
+
+<details>
+<summary><strong>More projects · agent infrastructure & verification</strong></summary>
+
+| Project | What it does |
+| --- | --- |
+| **[Amini](https://github.com/Jeremiah-Sakuda/Amini)** | Captures agent decision traces, evaluates policies, and organizes violations, incidents, and audit reports. |
+| **[Baraza](https://github.com/Jeremiah-Sakuda/Baraza)** | Gives agent memory an inspectable record: quoted claims, contradiction review, human ratification, and retractable guidance. |
+| **[Muhuri](https://github.com/Jeremiah-Sakuda/Muhuri)** | Records ordered agent actions, seals them with cryptographic commitments, and anchors proof bundles in S3 Object Lock for offline verification. |
+| **[Thabiti](https://github.com/Jeremiah-Sakuda/Thabiti)** | Meters usage from event logs with deterministic aggregation, sealed billing windows, and independently verifiable receipts. [Demo](https://thabiti-phi.vercel.app) |
+| **[Halisi](https://github.com/Jeremiah-Sakuda/Halisi)** | Enforces one claim per attested credential using passkey verification, single-use challenges, and atomic DynamoDB writes. |
+| **[Sift](https://github.com/Jeremiah-Sakuda/sift)** | A browser extension that checks whether cited sources support an AI answer’s claims and explains when verification is unavailable. |
+| **[AutoSRE](https://github.com/Jeremiah-Sakuda/AutoSRE)** | Diagnoses cloud incidents, supports AWS Lambda alias rollback, and checks recovery before generating an incident report. |
+
+</details>
+
+<details>
+<summary><strong>More projects · education, community & adaptable software</strong></summary>
+
+| Project | What it does |
+| --- | --- |
+| **[Kijiji Scholars](https://github.com/Jeremiah-Sakuda/KijijiScholars)** | Supports college planning with academic profiles, roadmaps, scholarship discovery, and versioned essays with AI feedback. |
+| **[Daraja](https://github.com/Jeremiah-Sakuda/Daraja)** | Builds translation models for underserved language pairs, with a Somali–Swahili training pipeline and an app that runs inference through local Ollama. |
+| **[Zamu](https://github.com/Jeremiah-Sakuda/Zamu)** | Fills volunteer roster gaps using qualification and workload rankings, explicit authority to act, and verification of the resulting assignment. |
+| **[Asili Agents](https://github.com/Jeremiah-Sakuda/asili-agents)** | An earlier commerce build: a team of agents for micro-sellers, grounded in a live catalog with deterministic pricing and human approval. [Demo](https://asili-agents-u42sxjnqkq-uc.a.run.app/app/) |
+| **[Sikia](https://github.com/Jeremiah-Sakuda/Sikia)** | A customizable money dashboard whose runtime agent edits the interface, while a kernel checks changes and commits or rolls them back. |
+
+</details>
 
 [Browse all repositories →](https://github.com/Jeremiah-Sakuda?tab=repositories)
 
