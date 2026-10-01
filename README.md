@@ -40,40 +40,7 @@ An AI griot that turns fragments of family history into heritage narratives comb
 | **[Parley](https://github.com/Jeremiah-Sakuda/Parley)** | Negotiates for sellers while a deterministic Convex transaction enforces the margin floor. Supports agent-to-agent negotiation over MCP. [Demo](https://parley-ak4b.vercel.app/?demo) |
 | **[Akili](https://github.com/Jeremiah-Sakuda/Akili)** | Grounds answers from technical PDFs in page coordinates and source text, with explicit confidence tiers and refusal when evidence is insufficient. |
 | **[Dira](https://github.com/Jeremiah-Sakuda/Dira)** | Models commitments as a dependency graph, propagates schedule changes, and replans when an attempted repair fails. [Interactive evidence](https://dira-phi.vercel.app) |
-| **[Karani](https://github.com/Jeremiah-Sakuda/Karani)** | Prepares rubric-linked evidence and citation checks for instructors, who review the feedback and assign grades. |
-| **[Sema](https://github.com/Jeremiah-Sakuda/sema)** | Helps film editors create audio description using source frames, measured narration timing, and approval of the exact candidate to export. |
-| **[Dhamana](https://github.com/Jeremiah-Sakuda/dhamana)** | Implements ticket inventory, purchase limits, and resale rules within transactions on multi-region Amazon Aurora DSQL. [Demo](https://dhamana.vercel.app) |
-
-<details>
-<summary><strong>More projects & experiments</strong></summary>
-
-### Agent infrastructure and verification
-
-- **[Amini](https://github.com/Jeremiah-Sakuda/Amini)** — Agent decision traces, policy enforcement, and regulatory evidence mapping.
-- **[Baraza](https://github.com/Jeremiah-Sakuda/Baraza)** — Agent memory built from quoted claims that users can inspect, approve, dispute, and retract.
-- **[Muhuri](https://github.com/Jeremiah-Sakuda/Muhuri)** — Tamper-evident agent action logs with sealed records and offline verification.
-- **[Thabiti](https://github.com/Jeremiah-Sakuda/Thabiti)** — Deterministic usage metering with sealed billing windows and customer-verifiable receipts. [Demo](https://thabiti-phi.vercel.app)
-- **[Halisi](https://github.com/Jeremiah-Sakuda/Halisi)** — Enforces one claim per attested credential through conditional DynamoDB writes.
-- **[Sift](https://github.com/Jeremiah-Sakuda/sift)** — A browser extension that checks whether an AI answer’s citations support its claims.
-- **[AutoSRE](https://github.com/Jeremiah-Sakuda/AutoSRE)** — Incident diagnosis, remediation, and recovery checks using Amazon Nova.
-
-### Tools for people and communities
-
-- **[Kijiji Scholars](https://github.com/Jeremiah-Sakuda/KijijiScholars)** — College guidance, application planning, essay support, and university discovery.
-- **[Daraja](https://github.com/Jeremiah-Sakuda/Daraja)** — A Somali–Swahili translation pipeline for humanitarian contexts, designed for local inference.
-- **[Zamu](https://github.com/Jeremiah-Sakuda/Zamu)** — Fills volunteer roster gaps using qualifications, workload fairness, and verification that coverage changed.
-- **[Asili Agents](https://github.com/Jeremiah-Sakuda/asili-agents)** — An earlier commerce prototype: catalog-grounded seller support, deterministic pricing, and human approval.
-- **[Iris](https://github.com/Jeremiah-Sakuda/Iris)** — A real-time audio and video companion for older adults living independently.
-- **[Pathfinder](https://github.com/Jeremiah-Sakuda/Pathfinder)** — Voice guidance and confirmed browser actions for navigating government-service portals.
-- **[Agora](https://github.com/Jeremiah-Sakuda/Agora)** — Campus event discovery and community tools for Boston University students.
-- **[Lugha](https://github.com/Jeremiah-Sakuda/Lugha)** — An early prototype for turning everyday communication repairs into English lessons.
-
-### Experiments
-
-- **[Fly Applicant](https://github.com/Jeremiah-Sakuda/fly-applicant)** — A fruit-fly connectome simulation driving a job-application scene in the browser. [Watch it](https://fly-office.vercel.app)
-- **[Sikia](https://github.com/Jeremiah-Sakuda/Sikia)** — A personal finance dashboard that adapts through natural-language requests, with validation and rollback around generated changes.
-
-</details>
+| **[Fly Applicant](https://github.com/Jeremiah-Sakuda/fly-applicant)** | Simulates a fruit-fly connectome to drive a browser-based job-application scene, with neural activity visualized live. [Watch it](https://fly-office.vercel.app) |
 
 [Browse all repositories →](https://github.com/Jeremiah-Sakuda?tab=repositories)
 
@@ -90,4 +57,3 @@ An AI griot that turns fragments of family history into heritage narratives comb
 **Languages:** Python · TypeScript · C++ · Java · SQL  
 **AI & applications:** Gemini · Google ADK · Amazon Nova · React · Next.js · FastAPI  
 **Infrastructure & data:** Google Cloud · AWS · Oracle Cloud · Convex · PostgreSQL · Firestore · Docker
-
