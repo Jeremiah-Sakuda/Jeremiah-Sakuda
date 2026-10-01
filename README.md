@@ -1,57 +1,93 @@
 # Jeremiah Somoine
 
-**Computer Engineering + Business · Boston University '27**
+**Computer Engineering + Business · Boston University ’27**
 
-I build AI systems for domains where getting it wrong has consequences. The through-line across everything: trust through verification — systems whose guarantees are structurally enforced, not declared.
+I build AI products for decisions people need to trust. My work connects model reasoning with verifiable evidence, constraints enforced in code, and human judgment—from understanding student work to governing what an agent can do.
 
-## Hackathon Wins
+[LinkedIn](https://www.linkedin.com/in/jeremiahsakuda/) · [Email](mailto:jsakuda@bu.edu) · [Asili](https://tryasili.com) · [Featured by BU Engineering](https://www.bu.edu/eng/2026/09/15/engineering-ai-with-sense-and-sensibility/)
 
-**Team USA × Google Cloud Hackathon — Grand Prize** · 281 participants
-FORGED, a Gemini-powered Digital Mirror that matches fans to one of eight Team USA athlete archetypes drawn from 120 years of Olympic and Paralympic biometric data. Two archetypes are Paralympic-first, with centroids built from Paralympic sport requirements so a century of Olympic records doesn't statistically dominate. Gemini 2.5 Pro agent orchestrating five tools, deployed on Cloud Run with BigQuery and Firestore.
+## Building now
 
-**Google Gemini Live Agent Challenge — Creative Storytellers Winner** · 11,896 participants
-Sankofa, a multimodal AI griot that transforms sparse family history into immersive heritage narratives: interleaved text, watercolor imagery, ambient audio, and live voice conversation. Built on Gemini 2.5 with an 11-tool ADK agent architecture.
+**Founder, [Asili](https://tryasili.com)** — Building evidence for consequential decisions, starting in education. As AI changes how work is produced, I’m interested in how people establish what that work demonstrates.
 
+Our first product, **[Eleza](https://tryeleza.com)**, helps instructors explore how students explain their own submissions through spoken or typed oral defenses. It connects answers to passages in the work and produces an inspectable evidence dossier. Instructors retain the judgment.
 
-## Building Now
+[Try Eleza](https://tryeleza.com) · [Explore the source](https://github.com/Jeremiah-Sakuda/Eleza)
 
-**Asili Commerce** — AI front desk for small home-services businesses, starting with HVAC shops in Austin. Catches the calls owners miss, texts back within seconds, qualifies the job, and logs every decision for owner audit. Sole founder. [tryasili.com](https://tryasili.com)
+## Hackathon wins
 
-## Selected Projects
+### [FORGED](https://github.com/Jeremiah-Sakuda/FORGED)
 
-**Parley** — Seller-side negotiation agent where the margin floor is enforced at the Convex transaction boundary. Floor violations aren't rule-checked; they're structurally unrepresentable. Ships with an MCP surface so buyer-side agents can negotiate directly. Built at the YC Orange Slice AI Growth Hackathon.
+**Grand Prize · Team USA × Google Cloud Hackathon**
 
-**AKILI** — Neuro-symbolic verification engine for technical documentation. Coordinate-grounded answers from PDFs with proof, or REFUSE. FastAPI + Gemini + Z3 + React. Submitted to the Google DeepMind Gemini 3 Hackathon.
+A multimodal fan experience that matches users to eight athlete archetypes drawn from Olympic and Paralympic history. Built with Gemini, Cloud Run, BigQuery, and Firestore, with dedicated Paralympic archetypes and a visible output-validation trace.
 
-**Dhamana** — Fair-drop ticketing where no-oversell, anti-bot caps, and price-capped resale are enforced at the database COMMIT, on multi-region Amazon Aurora DSQL.
+[Project & award](https://devpost.com/software/forged) · [Source](https://github.com/Jeremiah-Sakuda/FORGED)
 
-**Daraja** — Somali–Swahili translation for humanitarian contexts. Built for the Gemma 4 Good Hackathon.
+### [Sankofa](https://github.com/Jeremiah-Sakuda/Sankofa)
 
-**Nexus** — Layout-aware RAG platform for hardware documentation. Retrieval that respects document structure instead of treating every PDF like a bag of words. Advanced in Microsoft Imagine Cup 2026.
+**Best of Creative Storytellers · Google Gemini Live Agent Challenge**
 
-**Kijiji Scholars** — College guidance platform piloting with Crawford International School in Nairobi. Making the knowledge hoarded at well-resourced schools accessible where it's needed most.
+An AI griot that turns fragments of family history into heritage narratives combining voice, watercolor imagery, ambient sound, and live conversation. Each segment distinguishes historical context, cultural context, and reconstruction.
 
-## Experience
+[Project & award](https://devpost.com/software/sankofa-y47f9p) · [Source](https://github.com/Jeremiah-Sakuda/Sankofa)
 
-**Product Manager Intern @ IBM** · Summer 2026 — Docling, watsonx platform.
+## Selected projects
 
-**Software Engineer Intern @ Oracle Cloud Infrastructure** · Summer 2025 — Built dashboarding infrastructure that closed a 22% coverage gap across 700k+ records.
+| Project | What it does |
+| --- | --- |
+| **[Hodi](https://github.com/Jeremiah-Sakuda/Hodi)** | Administers creative consent: scoped permissions, licensing requests, revocation, and auditable decisions across a fleet of agents. [Demo](https://hodi-evidence-endpoint-406699565497.us-central1.run.app/) |
+| **[Parley](https://github.com/Jeremiah-Sakuda/Parley)** | Negotiates for sellers while a deterministic Convex transaction enforces the margin floor. Supports agent-to-agent negotiation over MCP. [Demo](https://parley-ak4b.vercel.app/?demo) |
+| **[Akili](https://github.com/Jeremiah-Sakuda/Akili)** | Grounds answers from technical PDFs in page coordinates and source text, with explicit confidence tiers and refusal when evidence is insufficient. |
+| **[Dira](https://github.com/Jeremiah-Sakuda/Dira)** | Models commitments as a dependency graph, propagates schedule changes, and replans when an attempted repair fails. [Interactive evidence](https://dira-phi.vercel.app) |
+| **[Karani](https://github.com/Jeremiah-Sakuda/Karani)** | Prepares rubric-linked evidence and citation checks for instructors, who review the feedback and assign grades. |
+| **[Sema](https://github.com/Jeremiah-Sakuda/sema)** | Helps film editors create audio description using source frames, measured narration timing, and approval of the exact candidate to export. |
+| **[Dhamana](https://github.com/Jeremiah-Sakuda/dhamana)** | Implements ticket inventory, purchase limits, and resale rules within transactions on multi-region Amazon Aurora DSQL. [Demo](https://dhamana.vercel.app) |
 
-## Leadership
+<details>
+<summary><strong>More projects & experiments</strong></summary>
 
-**President (incoming), BU NSBE** — As VP of External Affairs, secured $100K+ in corporate funding from Google, Capital One, Schneider Electric, and Pfizer during a period of sharp industry-wide DEI contraction. Led the chapter to Nationals in Baltimore.
+### Agent infrastructure and verification
 
-**Co-Founder & Product Lead, MARKITIT** — Vendor onboarding platform for small business owners.
+- **[Amini](https://github.com/Jeremiah-Sakuda/Amini)** — Agent decision traces, policy enforcement, and regulatory evidence mapping.
+- **[Baraza](https://github.com/Jeremiah-Sakuda/Baraza)** — Agent memory built from quoted claims that users can inspect, approve, dispute, and retract.
+- **[Muhuri](https://github.com/Jeremiah-Sakuda/Muhuri)** — Tamper-evident agent action logs with sealed records and offline verification.
+- **[Thabiti](https://github.com/Jeremiah-Sakuda/Thabiti)** — Deterministic usage metering with sealed billing windows and customer-verifiable receipts. [Demo](https://thabiti-phi.vercel.app)
+- **[Halisi](https://github.com/Jeremiah-Sakuda/Halisi)** — Enforces one claim per attested credential through conditional DynamoDB writes.
+- **[Sift](https://github.com/Jeremiah-Sakuda/sift)** — A browser extension that checks whether an AI answer’s citations support its claims.
+- **[AutoSRE](https://github.com/Jeremiah-Sakuda/AutoSRE)** — Incident diagnosis, remediation, and recovery checks using Amazon Nova.
 
-**MLT Career Prep Fellow · Alpha Phi Alpha Fraternity, Inc. (Sigma Chapter)**
+### Tools for people and communities
 
-## Stack
+- **[Kijiji Scholars](https://github.com/Jeremiah-Sakuda/KijijiScholars)** — College guidance, application planning, essay support, and university discovery.
+- **[Daraja](https://github.com/Jeremiah-Sakuda/Daraja)** — A Somali–Swahili translation pipeline for humanitarian contexts, designed for local inference.
+- **[Zamu](https://github.com/Jeremiah-Sakuda/Zamu)** — Fills volunteer roster gaps using qualifications, workload fairness, and verification that coverage changed.
+- **[Asili Agents](https://github.com/Jeremiah-Sakuda/asili-agents)** — An earlier commerce prototype: catalog-grounded seller support, deterministic pricing, and human approval.
+- **[Iris](https://github.com/Jeremiah-Sakuda/Iris)** — A real-time audio and video companion for older adults living independently.
+- **[Pathfinder](https://github.com/Jeremiah-Sakuda/Pathfinder)** — Voice guidance and confirmed browser actions for navigating government-service portals.
+- **[Agora](https://github.com/Jeremiah-Sakuda/Agora)** — Campus event discovery and community tools for Boston University students.
+- **[Lugha](https://github.com/Jeremiah-Sakuda/Lugha)** — An early prototype for turning everyday communication repairs into English lessons.
 
-Python · TypeScript · C++ · Java · SQL · Gemini · Convex · Z3 · LangChain · PyTorch · FastAPI · GCP · Oracle Cloud · Azure · Docker
+### Experiments
 
----
+- **[Fly Applicant](https://github.com/Jeremiah-Sakuda/fly-applicant)** — A fruit-fly connectome simulation driving a job-application scene in the browser. [Watch it](https://fly-office.vercel.app)
+- **[Sikia](https://github.com/Jeremiah-Sakuda/Sikia)** — A personal finance dashboard that adapts through natural-language requests, with validation and rollback around generated changes.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/jeremiahs">LinkedIn</a> ·
-  <a href="mailto:jsakuda@bu.edu">Email</a>
-</p>
+</details>
+
+[Browse all repositories →](https://github.com/Jeremiah-Sakuda?tab=repositories)
+
+## Experience & leadership
+
+- **IBM · Product Manager Intern · Summer 2026** — Docling and the watsonx platform.
+- **Oracle Cloud Infrastructure · Software Engineer Intern · Summer 2025** — Built dashboarding infrastructure that closed a 22% coverage gap across 700K+ records.
+- **BU NSBE** — Secured $100K+ in corporate funding as VP of External Affairs and led the chapter to Nationals in Baltimore.
+- **[MARKITIT](https://www.bu.edu/innovate/profile/markitit/) · Co-Founder & Product Lead** — Helping small businesses discover and prepare for pop-up market opportunities.
+- **MLT Career Prep Fellow · Alpha Phi Alpha Fraternity, Inc., Sigma Chapter**
+
+## Tools I work with
+
+**Languages:** Python · TypeScript · C++ · Java · SQL  
+**AI & applications:** Gemini · Google ADK · Amazon Nova · React · Next.js · FastAPI  
+**Infrastructure & data:** Google Cloud · AWS · Oracle Cloud · Convex · PostgreSQL · Firestore · Docker
+
